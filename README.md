@@ -1,16 +1,9 @@
-# React + Vite
+# React + Vite Nasa API Simulation
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-Currently, two official plugins are available:
+Currently not functional but intended to simulate integrating the Nasa API to view images of the Mars Rover 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Searching
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Using the search bar you should be able to input a keyword, a start year, and an end year. If data is available then after clicking the search button the photos should appear and clicking on each on focuses it in the center of screen, with an 'X' appearing in the top right to exit focus. Otherwise, if search is not within the parameters of what can be searched then a detailed error message is presented to the user as to why.  
