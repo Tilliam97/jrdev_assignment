@@ -10,7 +10,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
     try {
-      const response = await axios.get(`https://images-api.nasa.gov/search?q=&apikey=${apiKey}`);
+      const response = await axios.get(`https://images-api.nasa.gov/search?q={q}&apikey=${apiKey}`);
       setData(response.data);
     }catch (error){
       console.error('Error fetching data:', error)

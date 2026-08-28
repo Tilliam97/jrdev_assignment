@@ -1,0 +1,1 @@
+For the use of AI in the Jr Development assignment I used it to debug integrating the api key into my fetch request so that the api would allow me access to grab the data I was looking for. It turned out to be partially beneficial in that regard but not a complete solution to the problem.
