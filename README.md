@@ -1,4 +1,4 @@
-# React + Vite Nasa API Simulation
+# React + Vite NASA API Simulation
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
